@@ -7,6 +7,7 @@ Please refer to Spring Boot documentation for all [*spring-kafka* properties](ht
 
 
 The following code has been built using:
+- Spring Boot 3.0.0
 - Apache Maven 3.9.1
 - Java openjdk version "17.0.5"
 
