@@ -1,6 +1,6 @@
 # eap-kafka-springboot
 
-The application shows how to connect a Spring Boot application deployed on JBoss EAP to Apache Kafka.
+The application shows how to connect a Spring Boot application to Apache Kafka.
 This basic application sends events to specific topics when dedicated REST endpoints are invoked.
 This reproducer is by no means extensive of both Spring Boot & Apache Kafka features.
 Please refer to Spring Boot documentation for all [*spring-kafka* properties](https://docs.spring.io/spring-boot/docs/current/reference/html/application-properties.html#:~:text=spring.kafka.admin.auto%2Dcreate).
