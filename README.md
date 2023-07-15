@@ -49,11 +49,10 @@ http :8080/kafka/integer/getLastEvenInteger
 
 And for the last odd number:
 ```
-https://sflnx005795.utenze.bankit.it/eap-kafka-springboot/kafka/integer/getLastOddInteger
+http :8080/kafka/integer/getLastOddInteger
 ```
 
 
 ### Insights
 
-Producer class _MyProducer_ has been built using _MyProducerFactoryConfig_, which reads properties from _application.properties_ or EAP system properties and sets the whole JAAS context.
-Different from KafkaEventConsumer, whose JAAS context has been built automatically by Spring.
+Producer class _MyProducer_ has been built using _MyProducerFactoryConfig_, which reads properties from _application.properties_.
