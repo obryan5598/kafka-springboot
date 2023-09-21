@@ -1,4 +1,4 @@
-# eap-kafka-springboot
+# kafka-springboot
 
 The application shows how to connect a Spring Boot application to Apache Kafka.
 This basic application sends events to specific topics when dedicated REST endpoints are invoked.
